@@ -1,4 +1,6 @@
+
 class Artist
+  
   
   attr_accessor :name
 
@@ -27,5 +29,4 @@ class Artist
   def self.song_count
     Song.all.count 
   end
-  
 end
